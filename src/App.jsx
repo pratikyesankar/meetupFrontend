@@ -1,0 +1,21 @@
+import { useState } from "react"
+import reactLogo from "./assets/react.svg"
+import viteLogo from "/vite.svg"
+
+// import Events from "./components/Events"
+import EventCard from "./components/EventCard"
+import EventNavbar from "./components/EventNavbar"
+import SearchBox from "./components/SearchBox"
+
+function App() {
+  return (
+    <>
+      <EventNavbar />
+      <hr />
+      <SearchBox />
+      <EventCard />
+    </>
+  )
+}
+
+export default App

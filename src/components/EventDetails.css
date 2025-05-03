@@ -1,0 +1,78 @@
+.eventImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.marketing {
+  background-color: #eee;
+}
+.eventMeta {
+  background-color: white;
+  padding: 30px;
+  /* box-shadow: 2px 2px 5px #9e9e9e; */
+}
+
+.eventMeta p {
+  /* margin-bottom: 0.5rem; */
+  font-size: 1rem;
+  color: #333;
+}
+
+.speakers {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.speakerCard {
+  box-shadow: 2px 2px 5px #9e9e9e;
+  background-color: white;
+  flex: 1;
+  min-width: 150px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.speakerImage {
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.rsvpButton {
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.details,
+.additionalInfo,
+.eventTags {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.tag {
+  padding: 3x;
+  font-size: 1rem;
+  /* border-radius: 15px; */
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
