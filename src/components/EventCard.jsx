@@ -25,7 +25,6 @@ const EventCard = () => {
     return <div>Error: {error}</div>
   }
 
-  // Filter events based on the selected event type
   const filteredEvents =
     eventType === "All"
       ? events

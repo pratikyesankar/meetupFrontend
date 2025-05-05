@@ -18,7 +18,6 @@ const EventNavbar = () => {
           </a>
           <div className="search-bar">
             {" "}
-            {/* Container for input and icon */}
             <div class="input-group">
               <span class="input-group-text" id="search-icon">
                 <i class="bi bi-search"></i>
