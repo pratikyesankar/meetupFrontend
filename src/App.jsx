@@ -4,7 +4,6 @@ import viteLogo from "/vite.svg"
 
 import EventCard from "./components/EventCard"
 import EventNavbar from "./components/EventNavbar"
-import SearchBox from "./components/SearchBox"
 
 function App() {
   return (
