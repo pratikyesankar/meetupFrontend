@@ -8,7 +8,7 @@ const EventNavbar = () => {
     <>
       <div className="meetup-top-section">
         <div className="meetup-top-container">
-          <a href="#">
+          <a href="/">
             <img
               src="https://www.nicepng.com/png/detail/266-2663230_com-has-an-unintended-cryptocurrency-community-interest-meetup.png"
               alt=""

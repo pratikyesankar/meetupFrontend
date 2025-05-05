@@ -4,6 +4,17 @@
   gap: 30px;
   justify-content: center;
 }
+.header-container {
+  padding: 0 20px;
+}
+
+.event-type-dropdown {
+  width: 250px;
+  border: 1px solid #ddd;
+  font-size: 0.9em;
+  background-color: #fff;
+  color: #333;
+}
 
 .event-card {
   margin-left: 20px;
@@ -40,20 +51,17 @@
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   z-index: 2;
 }
-.event-card-link:hover {
-  color: #007bff;
-}
 
 .event-details {
   padding: 15px;
 }
 
 .event-title {
+  text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
   margin: 10px 0 5px;
   color: black;
-  text-decoration: none;
 }
 
 .event-date,
